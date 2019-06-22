@@ -225,6 +225,84 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+#leftsidemenu .toggle-canvas {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  outline: none;
+  font-size: 36px;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  left: 250px;
+  color: #fff;
+}
+
+#leftsidemenu .toggle-canvas:hover,
+#leftsidemenu .toggle-canvas:focus {
+  background: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  outline: none;
+  color: #fff;
+}
+
+#leftsidemenu .offset-canvas {
+  top: 0;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #f8f8f8;
+  z-index: 99999999;
+  -webkit-transform: translate3d(-200px, 0, 0);
+  transform: translate3d(-200px, 0, 0);
+  -webkit-transition: -webkit-transform 0.4s;
+  transition: -webkit-transform 0.4s;
+  transition: transform 0.4s;
+  transition: transform 0.4s, -webkit-transform 0.4s;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+#leftsidemenu .offset-canvas .scroller {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+#leftsidemenu .offset-canvas ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#leftsidemenu .offset-canvas ul li a {
+  display: block;
+  padding: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  color: #666;
+  text-decoration: none;
+}
+
+#leftsidemenu .offset-canvas.show-canvas {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+  transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
 #information .container {
   display: -webkit-box;
   display: -ms-flexbox;
