@@ -4,10 +4,23 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+
         i {
-        	font-size: 25px;
-        	color: blue;
-        	margin: 5px;
+            font-size: 25px;
+            color: #03A9F4;
+            margin: 5px;
+        }
+
+        .linkedin {
+            i {
+                color: #0077B7
+            }
+
+        }
+
+        .twitter,
+        .linkedin {
+            text-decoration: none;
         }
 
         img {

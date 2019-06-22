@@ -241,8 +241,17 @@ header.masthead .intro-text .intro-heading {
 
 #information .container i {
   font-size: 25px;
-  color: blue;
+  color: #03A9F4;
   margin: 5px;
+}
+
+#information .container .linkedin i {
+  color: #0077B7;
+}
+
+#information .container .twitter,
+#information .container .linkedin {
+  text-decoration: none;
 }
 
 #information .container img {
