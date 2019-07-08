@@ -56,7 +56,7 @@ h6 {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0;
+    padding: 50px 0;
   }
 }
 
@@ -301,6 +301,27 @@ header.masthead .intro-text .intro-heading {
   transition: transform 0.8s, -webkit-transform 0.8s;
   -webkit-transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
   transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.card img {
+  border-radius: auto;
+}
+
+.card-body {
+  min-height: 240px;
+}
+
+#carouselExampleSlidesOnly {
+  margin-top: 50px;
+  height: 500px;
+}
+
+#carouselExampleSlidesOnly .carousel-inner {
+  height: 500px;
+}
+
+.carousel-inner > .carousel-item > img {
+  border-radius: 0px;
 }
 
 #information .container {
