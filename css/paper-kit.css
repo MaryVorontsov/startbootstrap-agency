@@ -7657,7 +7657,7 @@ License - nucleoapp.com/license/
 }
 
 @media screen and (max-width: 991px) {
-  .navbar-collapse {
+/*  .navbar-collapse {
     position: fixed;
     display: block !important;
     top: 0;
@@ -7728,7 +7728,7 @@ License - nucleoapp.com/license/
     display: block;
     content: "";
     z-index: 1;
-  }
+  }*/
   .nav-open .navbar-collapse {
     -webkit-transform: translateX(0px);
     -moz-transform: translateX(0px);
@@ -7751,9 +7751,9 @@ License - nucleoapp.com/license/
     -ms-transform: translateX(-230px);
     transform: translateX(-230px);
   }
-  .wrapper .navbar-collapse {
+/*  .wrapper .navbar-collapse {
     display: none;
-  }
+  }*/
   .register-page.full-screen .page-header .container {
     margin-top: 30%;
   }
